@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	<script> var exports = {}; </script>
+
+	<script type="module"
+		src="https://cdn.jsdelivr.net/npm/stencil-ssr-poc@0.0.4/dist/my-first-stencil-project/my-first-stencil-project.esm.js"></script>
+	<script type="module" src="https://cdn.jsdelivr.net/npm/stencil-ssr-poc@0.0.4/hydrate/index.js"></script>
+
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>
